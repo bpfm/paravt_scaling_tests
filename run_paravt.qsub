@@ -1,0 +1,19 @@
+# The shell
+#PBS -S /bin/bash
+#PBS -l nodes=1:ppn=2
+#PBS -l walltime=48:00:00
+#PBS -j oe
+#PBS -N paravt_scaling_test
+#PBS -m be
+#PBS -M morton@roe.ac.uk
+
+cd $PBS_O_WORKDIR
+
+export PATH=/home/brs/local/gnu/bin:/home/brs/local/gnu/openmpi-1.10.1/bin:$PATH
+export LD_LIBRARY_PATH=/home/brs/local/gnu/lib:/home/brs/local/gnu/openmpi-1.10.1/lib/$LD_LIBRARY_PATH
+
+export OMP_NUM_THREADS=1
+
+ROOT=/disk6/morton/paravt/paravt
+	
+mpirun -np 2 $ROOT/paravt snapshot_006.hdf5 2

@@ -1,0 +1,20 @@
+# The shell
+#PBS -S /bin/bash
+#PBS -l nodes=8:ppn=8
+#PBS -l walltime=48:00:00
+#PBS -j oe
+#PBS -N 100Mpc_256_bluetides
+#PBS -m be
+#PBS -M morton@roe.ac.uk
+
+cd $PBS_O_WORKDIR
+
+export PATH=/home/brs/local/gnu/bin:/home/brs/local/gnu/openmpi-1.10.1/bin:$PATH
+export LD_LIBRARY_PATH=/home/brs/local/gnu/lib:/home/brs/local/gnu/openmpi-1.10.1/lib/$LD_LIBRARY_PATH
+
+export OMP_NUM_THREADS=2
+
+ROOT=/disk6/morton/blue_tides/MP-Gadget/build
+
+mpirun -np 64 $ROOT/MP-GenIC paramfile.genic || exit 1 0 > gstd_ic.out	
+mpirun -np 64 $ROOT/MP-Gadget paramfile.gadget || exit 1 0 > gstd_run.out

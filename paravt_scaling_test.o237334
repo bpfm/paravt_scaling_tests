@@ -1,0 +1,29 @@
+--------------------------------------------------------------------------
+No OpenFabrics connection schemes reported that they were able to be
+used on a specific port.  As such, the openib BTL (OpenFabrics
+support) will be disabled for this port.
+
+  Local host:           worker063
+  Local device:         mlx4_0
+  Local port:           1
+  CPCs attempted:       rdmacm, udcm
+--------------------------------------------------------------------------
+Filename=snapshot_006.hdf5 fileformat=2
+BOX enabled.
+PERIODIC enabled.
+MULTIMASS enabled.
+WRITEASCII enabled.
+indices = 2 1 1
+MULTIMASS NOT AVAILABLE FOR GADGET FILES.
+Stop code...
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD 
+with errorcode 0.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+[worker063:04790] 1 more process has sent help message help-mpi-btl-openib-cpc-base.txt / no cpcs for port
+[worker063:04790] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[worker063:04790] 1 more process has sent help message help-mpi-api.txt / mpi-abort

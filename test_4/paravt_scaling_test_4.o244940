@@ -1,0 +1,88 @@
+ generating random points
+ writing to file
+--------------------------------------------------------------------------
+[[47931,1],1]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: worker044
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+Filename=random_points.txt fileformat=0
+BOX enabled.
+PERIODIC enabled.
+MULTIMASS enabled.
+WRITEASCII enabled.
+indices = 2 2 1
+NumPart=100000000  Lbox= 100.000
+[worker044:20609] 3 more processes have sent help message help-mpi-btl-base.txt / btl:no-nics
+[worker044:20609] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+Task=  3 Npthistot=  3125928
+Task=  2 Npthistot=  6250659
+Task=  1 Npthistot=  9376170
+Task=  0 Npthistot= 12498592
+Read Complete: Nread=31251349 in 10000 blocks of 10000 bytes.
+Border size=0.647323 , density=100.000000
+AUTOBODER: increasing boundary for task 3, direction=0
+ boundary particles found=40408 --- minimum expected=97099
+AUTOBODER: increasing boundary for task 2, direction=0
+ boundary particles found=80758 --- minimum expected=97099
+AUTOBODER: increasing boundary for task 1, direction=0
+ boundary particles found=39950 --- minimum expected=97099
+AUTOBODER: increasing boundary for task 0, direction=0
+ boundary particles found=80668 --- minimum expected=97099
+New number of particles task 3: 100175 -- boundary expanded a factor of 2.5 
+New number of particles task 2: 116351 -- boundary expanded a factor of 1.4 
+New number of particles task 0: 116308 -- boundary expanded a factor of 1.4 
+New number of particles task 1: 99993 -- boundary expanded a factor of 2.5 
+AUTOBODER: increasing boundary for task 3, direction=1
+ boundary particles found=40263 --- minimum expected=97099
+AUTOBODER: increasing boundary for task 2, direction=1
+ boundary particles found=80326 --- minimum expected=97099
+New number of particles task 3: 100501 -- boundary expanded a factor of 2.5 
+New number of particles task 2: 116175 -- boundary expanded a factor of 1.4 
+AUTOBODER: increasing boundary for task 3, direction=2
+ boundary particles found=40768 --- minimum expected=97099
+AUTOBODER: increasing boundary for task 2, direction=2
+ boundary particles found=40730 --- minimum expected=97099
+New number of particles task 3: 101416 -- boundary expanded a factor of 2.5 
+New number of particles task 2: 100938 -- boundary expanded a factor of 2.5 
+AUTOBODER: increasing boundary for task 3, direction=3
+ boundary particles found=40606 --- minimum expected=97099
+AUTOBODER: increasing boundary for task 1, direction=3
+ boundary particles found=40598 --- minimum expected=97099
+New number of particles task 3: 100995 -- boundary expanded a factor of 2.5 
+New number of particles task 1: 100902 -- boundary expanded a factor of 2.5 
+AUTOBODER: increasing boundary for task 3, direction=4
+ boundary particles found=20245 --- minimum expected=48549
+New number of particles task 3: 50411 -- boundary expanded a factor of 2.5 
+AUTOBODER: increasing boundary for task 3, direction=5
+ boundary particles found=20216 --- minimum expected=48549
+AUTOBODER: increasing boundary for task 2, direction=5
+ boundary particles found=20270 --- minimum expected=48549
+AUTOBODER: increasing boundary for task 1, direction=5
+ boundary particles found=40505 --- minimum expected=48549
+AUTOBODER: increasing boundary for task 0, direction=5
+ boundary particles found=40196 --- minimum expected=48549
+New number of particles task 3: 50259 -- boundary expanded a factor of 2.5 
+New number of particles task 1: 58003 -- boundary expanded a factor of 1.4 
+New number of particles task 2: 50487 -- boundary expanded a factor of 2.5 
+New number of particles task 0: 57997 -- boundary expanded a factor of 1.4 
+Task=2 NumThis=6250659 NumThis_boundary=9844829
+Task=3 NumThis=3125928 NumThis_boundary=9757906
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+Task=1 NumThis=9376170 NumThis_boundary=12878488
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+Task=0 NumThis=12498592 NumThis_boundary=12971936
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+ or BORDERSIZE too large.Running VT with options: qhull v QJ p Fv
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 20612 on node worker044 exited on signal 9 (Killed).
+--------------------------------------------------------------------------

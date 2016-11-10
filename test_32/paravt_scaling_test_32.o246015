@@ -1,0 +1,469 @@
+ generating random points
+ writing to file
+--------------------------------------------------------------------------
+[[8559,1],24]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: worker024
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+Filename=random_points.txt fileformat=0
+BOX enabled.
+PERIODIC enabled.
+MULTIMASS enabled.
+WRITEASCII enabled.
+indices = 4 4 2
+NumPart=100000000  Lbox= 100.000
+[worker013:28785] 31 more processes have sent help message help-mpi-btl-base.txt / btl:no-nics
+[worker013:28785] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+Task=  1 Npthistot=  1563593
+Task=  3 Npthistot=  1562517
+Task=  2 Npthistot=  1561988
+Task=  5 Npthistot=  1561920
+Task= 31 Npthistot=   390830
+Task= 25 Npthistot=   780297
+Task= 17 Npthistot=  1562947
+Task=  9 Npthistot=  1561375
+Task= 13 Npthistot=  1561597
+Task= 10 Npthistot=  1563823
+Task= 11 Npthistot=  1561805
+Task= 21 Npthistot=  1561327
+Task= 18 Npthistot=  1563610
+Task= 19 Npthistot=  1564007
+Task= 29 Npthistot=   781725
+Task= 30 Npthistot=   390395
+Task= 26 Npthistot=   780215
+Task= 27 Npthistot=   780436
+Task= 28 Npthistot=   780613
+Task= 24 Npthistot=   781532
+Task= 20 Npthistot=  1564608
+Task= 22 Npthistot=  1170573
+Task= 23 Npthistot=  1172972
+Task=  7 Npthistot=  1563492
+Task=  6 Npthistot=  1564408
+Task=  4 Npthistot=  1562691
+Task= 16 Npthistot=  1564899
+Task=  0 Npthistot=  1562026
+Read Complete: Nread=42195793 in 10000 blocks of 10000 bytes.
+Task= 15 Npthistot=  1563219
+Task= 14 Npthistot=  1563393
+Task=  8 Npthistot=  1562990
+Task= 12 Npthistot=  1563970
+Border size=0.647323 , density=100.000000
+AUTOBODER: increasing boundary for task 31, direction=0
+ boundary particles found=10172 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 30, direction=0
+ boundary particles found=9980 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 25, direction=0
+ boundary particles found=20081 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 29, direction=0
+ boundary particles found=20290 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 28, direction=0
+ boundary particles found=20154 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 24, direction=0
+ boundary particles found=20318 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 26, direction=0
+ boundary particles found=20138 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 27, direction=0
+ boundary particles found=20330 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 23, direction=0
+ boundary particles found=10072 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 22, direction=0
+ boundary particles found=10074 --- minimum expected=24275
+New number of particles task 25: 24306 -- boundary expanded a factor of 1.2 
+New number of particles task 27: 24313 -- boundary expanded a factor of 1.2 
+New number of particles task 29: 24355 -- boundary expanded a factor of 1.2 
+New number of particles task 24: 24372 -- boundary expanded a factor of 1.2 
+AUTOBODER: increasing boundary for task 21, direction=0
+ boundary particles found=20365 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 18, direction=0
+ boundary particles found=20135 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 19, direction=0
+ boundary particles found=20108 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 17, direction=0
+ boundary particles found=20339 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 20, direction=0
+ boundary particles found=20189 --- minimum expected=24275
+New number of particles task 31: 25258 -- boundary expanded a factor of 2.5 
+AUTOBODER: increasing boundary for task 16, direction=0
+ boundary particles found=20208 --- minimum expected=24275
+New number of particles task 30: 25069 -- boundary expanded a factor of 2.5 
+New number of particles task 26: 28977 -- boundary expanded a factor of 1.4 
+New number of particles task 28: 29028 -- boundary expanded a factor of 1.4 
+New number of particles task 17: 24441 -- boundary expanded a factor of 1.2 
+New number of particles task 20: 24326 -- boundary expanded a factor of 1.2 
+New number of particles task 21: 24371 -- boundary expanded a factor of 1.2 
+New number of particles task 16: 24292 -- boundary expanded a factor of 1.2 
+New number of particles task 19: 29043 -- boundary expanded a factor of 1.4 
+New number of particles task 18: 28970 -- boundary expanded a factor of 1.4 
+New number of particles task 23: 24743 -- boundary expanded a factor of 2.5 
+New number of particles task 22: 25048 -- boundary expanded a factor of 2.5 
+AUTOBODER: increasing boundary for task 0, direction=0
+ boundary particles found=20223 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 1, direction=0
+ boundary particles found=20446 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 6, direction=0
+AUTOBODER: increasing boundary for task 2, direction=0
+ boundary particles found=20105 --- minimum expected=24275
+ boundary particles found=10165 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 14, direction=0
+ boundary particles found=10100 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 10, direction=0
+ boundary particles found=20330 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 3, direction=0
+AUTOBODER: increasing boundary for task 9, direction=0
+ boundary particles found=19933 --- minimum expected=24275
+ boundary particles found=20245 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 11, direction=0
+ boundary particles found=20187 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 13, direction=0
+ boundary particles found=20168 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 8, direction=0
+ boundary particles found=20342 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 12, direction=0
+ boundary particles found=20124 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 15, direction=0
+AUTOBODER: increasing boundary for task 5, direction=0
+ boundary particles found=20010 --- minimum expected=24275
+ boundary particles found=10016 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 7, direction=0
+ boundary particles found=10005 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 4, direction=0
+ boundary particles found=19784 --- minimum expected=24275
+New number of particles task 0: 24283 -- boundary expanded a factor of 1.2 
+New number of particles task 1: 24614 -- boundary expanded a factor of 1.2 
+New number of particles task 3: 24387 -- boundary expanded a factor of 1.2 
+New number of particles task 8: 24359 -- boundary expanded a factor of 1.2 
+New number of particles task 13: 24288 -- boundary expanded a factor of 1.2 
+New number of particles task 5: 28915 -- boundary expanded a factor of 1.4 
+New number of particles task 11: 29193 -- boundary expanded a factor of 1.4 
+New number of particles task 10: 29113 -- boundary expanded a factor of 1.4 
+New number of particles task 4: 28697 -- boundary expanded a factor of 1.4 
+New number of particles task 2: 28934 -- boundary expanded a factor of 1.4 
+New number of particles task 9: 28789 -- boundary expanded a factor of 1.4 
+New number of particles task 12: 29078 -- boundary expanded a factor of 1.4 
+New number of particles task 7: 25019 -- boundary expanded a factor of 2.5 
+New number of particles task 14: 25091 -- boundary expanded a factor of 2.5 
+New number of particles task 15: 25313 -- boundary expanded a factor of 2.5 
+New number of particles task 6: 25141 -- boundary expanded a factor of 2.5 
+AUTOBODER: increasing boundary for task 30, direction=1
+ boundary particles found=10172 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 31, direction=1
+ boundary particles found=10042 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 27, direction=1
+ boundary particles found=19882 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 26, direction=1
+ boundary particles found=20489 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 24, direction=1
+ boundary particles found=20120 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 29, direction=1
+ boundary particles found=20072 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 25, direction=1
+ boundary particles found=20047 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 28, direction=1
+ boundary particles found=20046 --- minimum expected=24275
+New number of particles task 26: 24540 -- boundary expanded a factor of 1.2 
+New number of particles task 30: 25243 -- boundary expanded a factor of 2.5 
+New number of particles task 24: 28995 -- boundary expanded a factor of 1.4 
+New number of particles task 31: 24952 -- boundary expanded a factor of 2.5 
+New number of particles task 28: 29011 -- boundary expanded a factor of 1.4 
+New number of particles task 27: 28679 -- boundary expanded a factor of 1.4 
+New number of particles task 25: 28959 -- boundary expanded a factor of 1.4 
+New number of particles task 29: 29051 -- boundary expanded a factor of 1.4 
+AUTOBODER: increasing boundary for task 31, direction=2
+ boundary particles found=10175 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 30, direction=2
+ boundary particles found=9970 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 27, direction=2
+ boundary particles found=10211 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 25, direction=2
+ boundary particles found=10101 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 29, direction=2
+ boundary particles found=10198 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 26, direction=2
+ boundary particles found=10268 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 24, direction=2
+ boundary particles found=10126 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 28, direction=2
+ boundary particles found=10252 --- minimum expected=24275
+New number of particles task 31: 25233 -- boundary expanded a factor of 2.5 
+New number of particles task 30: 24810 -- boundary expanded a factor of 2.5 
+New number of particles task 25: 25160 -- boundary expanded a factor of 2.5 
+New number of particles task 27: 25165 -- boundary expanded a factor of 2.5 
+New number of particles task 24: 25239 -- boundary expanded a factor of 2.5 
+New number of particles task 29: 25339 -- boundary expanded a factor of 2.5 
+New number of particles task 26: 25370 -- boundary expanded a factor of 2.5 
+New number of particles task 28: 25429 -- boundary expanded a factor of 2.5 
+AUTOBODER: increasing boundary for task 31, direction=3
+ boundary particles found=10152 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 30, direction=3
+ boundary particles found=10222 --- minimum expected=24275
+New number of particles task 30: 25372 -- boundary expanded a factor of 2.5 
+AUTOBODER: increasing boundary for task 22, direction=3
+ boundary particles found=10170 --- minimum expected=24275
+New number of particles task 31: 25153 -- boundary expanded a factor of 2.5 
+AUTOBODER: increasing boundary for task 23, direction=3
+ boundary particles found=10062 --- minimum expected=24275
+New number of particles task 22: 25366 -- boundary expanded a factor of 2.5 
+New number of particles task 23: 25104 -- boundary expanded a factor of 2.5 
+AUTOBODER: increasing boundary for task 7, direction=3
+ boundary particles found=10157 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 15, direction=3
+AUTOBODER: increasing boundary for task 14, direction=3
+ boundary particles found=10249 --- minimum expected=24275
+ boundary particles found=10129 --- minimum expected=24275
+AUTOBODER: increasing boundary for task 6, direction=3
+ boundary particles found=10063 --- minimum expected=24275
+New number of particles task 7: 25183 -- boundary expanded a factor of 2.5 
+New number of particles task 15: 25275 -- boundary expanded a factor of 2.5 
+New number of particles task 6: 25076 -- boundary expanded a factor of 2.5 
+New number of particles task 14: 25368 -- boundary expanded a factor of 2.5 
+AUTOBODER: increasing boundary for task 31, direction=4
+ boundary particles found=4985 --- minimum expected=12137
+AUTOBODER: increasing boundary for task 30, direction=4
+ boundary particles found=4987 --- minimum expected=12137
+New number of particles task 30: 12555 -- boundary expanded a factor of 2.5 
+New number of particles task 31: 12502 -- boundary expanded a factor of 2.5 
+AUTOBODER: increasing boundary for task 31, direction=5
+ boundary particles found=4966 --- minimum expected=12137
+AUTOBODER: increasing boundary for task 30, direction=5
+ boundary particles found=5001 --- minimum expected=12137
+AUTOBODER: increasing boundary for task 25, direction=5
+ boundary particles found=4921 --- minimum expected=12137
+AUTOBODER: increasing boundary for task 27, direction=5
+ boundary particles found=5134 --- minimum expected=12137
+AUTOBODER: increasing boundary for task 24, direction=5
+ boundary particles found=5086 --- minimum expected=12137
+AUTOBODER: increasing boundary for task 26, direction=5
+ boundary particles found=4932 --- minimum expected=12137
+AUTOBODER: increasing boundary for task 29, direction=5
+ boundary particles found=5054 --- minimum expected=12137
+AUTOBODER: increasing boundary for task 28, direction=5
+ boundary particles found=5095 --- minimum expected=12137
+AUTOBODER: increasing boundary for task 22, direction=5
+ boundary particles found=10163 --- minimum expected=12137
+AUTOBODER: increasing boundary for task 23, direction=5
+ boundary particles found=10142 --- minimum expected=12137
+AUTOBODER: increasing boundary for task 18, direction=5
+ boundary particles found=10199 --- minimum expected=12137
+AUTOBODER: increasing boundary for task 17, direction=5
+ boundary particles found=10229 --- minimum expected=12137
+AUTOBODER: increasing boundary for task 20, direction=5
+ boundary particles found=10116 --- minimum expected=12137
+AUTOBODER: increasing boundary for task 19, direction=5
+ boundary particles found=9998 --- minimum expected=12137
+AUTOBODER: increasing boundary for task 21, direction=5
+ boundary particles found=10196 --- minimum expected=12137
+New number of particles task 31: 12437 -- boundary expanded a factor of 2.5 
+AUTOBODER: increasing boundary for task 16, direction=5
+ boundary particles found=10117 --- minimum expected=12137
+New number of particles task 30: 12613 -- boundary expanded a factor of 2.5 
+New number of particles task 23: 12147 -- boundary expanded a factor of 1.2 
+New number of particles task 17: 12210 -- boundary expanded a factor of 1.2 
+New number of particles task 21: 12172 -- boundary expanded a factor of 1.2 
+New number of particles task 20: 12159 -- boundary expanded a factor of 1.2 
+New number of particles task 18: 12232 -- boundary expanded a factor of 1.2 
+New number of particles task 22: 14495 -- boundary expanded a factor of 1.4 
+New number of particles task 24: 12642 -- boundary expanded a factor of 2.5 
+New number of particles task 27: 12652 -- boundary expanded a factor of 2.5 
+New number of particles task 25: 12411 -- boundary expanded a factor of 2.5 
+New number of particles task 26: 12490 -- boundary expanded a factor of 2.5 
+New number of particles task 28: 12747 -- boundary expanded a factor of 2.5 
+New number of particles task 29: 12666 -- boundary expanded a factor of 2.5 
+New number of particles task 19: 14515 -- boundary expanded a factor of 1.4 
+New number of particles task 16: 14557 -- boundary expanded a factor of 1.4 
+AUTOBODER: increasing boundary for task 2, direction=5
+ boundary particles found=9897 --- minimum expected=12137
+AUTOBODER: increasing boundary for task 0, direction=5
+ boundary particles found=10256 --- minimum expected=12137
+AUTOBODER: increasing boundary for task 7, direction=5
+ boundary particles found=10101 --- minimum expected=12137
+AUTOBODER: increasing boundary for task 4, direction=5
+ boundary particles found=10075 --- minimum expected=12137
+AUTOBODER: increasing boundary for task 3, direction=5
+ boundary particles found=10181 --- minimum expected=12137
+AUTOBODER: increasing boundary for task 10, direction=5
+ boundary particles found=10121 --- minimum expected=12137
+AUTOBODER: increasing boundary for task 1, direction=5
+ boundary particles found=10010 --- minimum expected=12137
+AUTOBODER: increasing boundary for task 8, direction=5
+ boundary particles found=10151 --- minimum expected=12137
+AUTOBODER: increasing boundary for task 9, direction=5
+ boundary particles found=10101 --- minimum expected=12137
+AUTOBODER: increasing boundary for task 13, direction=5
+ boundary particles found=9934 --- minimum expected=12137
+AUTOBODER: increasing boundary for task 12, direction=5
+ boundary particles found=10204 --- minimum expected=12137
+AUTOBODER: increasing boundary for task 5, direction=5
+ boundary particles found=10173 --- minimum expected=12137
+AUTOBODER: increasing boundary for task 11, direction=5
+ boundary particles found=10058 --- minimum expected=12137
+AUTOBODER: increasing boundary for task 14, direction=5
+ boundary particles found=10098 --- minimum expected=12137
+AUTOBODER: increasing boundary for task 15, direction=5
+ boundary particles found=10301 --- minimum expected=12137
+AUTOBODER: increasing boundary for task 6, direction=5
+ boundary particles found=10077 --- minimum expected=12137
+New number of particles task 0: 12325 -- boundary expanded a factor of 1.2 
+New number of particles task 3: 12211 -- boundary expanded a factor of 1.2 
+New number of particles task 4: 12154 -- boundary expanded a factor of 1.2 
+New number of particles task 9: 12166 -- boundary expanded a factor of 1.2 
+New number of particles task 10: 12217 -- boundary expanded a factor of 1.2 
+New number of particles task 7: 12174 -- boundary expanded a factor of 1.2 
+New number of particles task 14: 12144 -- boundary expanded a factor of 1.2 
+New number of particles task 12: 12214 -- boundary expanded a factor of 1.2 
+New number of particles task 6: 12159 -- boundary expanded a factor of 1.2 
+New number of particles task 15: 12336 -- boundary expanded a factor of 1.2 
+New number of particles task 2: 14307 -- boundary expanded a factor of 1.4 
+New number of particles task 8: 14562 -- boundary expanded a factor of 1.4 
+New number of particles task 5: 14601 -- boundary expanded a factor of 1.4 
+New number of particles task 1: 14425 -- boundary expanded a factor of 1.4 
+New number of particles task 11: 14523 -- boundary expanded a factor of 1.4 
+New number of particles task 13: 14196 -- boundary expanded a factor of 1.4 
+Task=5 NumThis=1561920 NumThis_boundary=2439884
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+Task=6 NumThis=1564408 NumThis_boundary=2045633
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+Task=4 NumThis=1562691 NumThis_boundary=2447610
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+Task=3 NumThis=1562517 NumThis_boundary=2056893
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+Task=7 NumThis=1563492 NumThis_boundary=2046055
+Task=1 NumThis=1563593 NumThis_boundary=1678485
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+Task=2 NumThis=1561988 NumThis_boundary=2049354
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+Task=0 NumThis=1562026 NumThis_boundary=1676226
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+Task=14 NumThis=1563393 NumThis_boundary=3206729
+Task=26 NumThis=780215 NumThis_boundary=1665012
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+Task=15 NumThis=1563219 NumThis_boundary=3203999
+Task=30 NumThis=390395 NumThis_boundary=1265744
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+Task=22 NumThis=1170573 NumThis_boundary=2815732
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+Task=8 NumThis=1562990 NumThis_boundary=2445307
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+Task=28 NumThis=780613 NumThis_boundary=1664555
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+Task=19 NumThis=1564007 NumThis_boundary=2820891
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+Task=13 NumThis=1561597 NumThis_boundary=3214146
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+Task=24 NumThis=781532 NumThis_boundary=1285905
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+Task=16 NumThis=1564899 NumThis_boundary=2449336
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+Task=10 NumThis=1563823 NumThis_boundary=2827256
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+Task=31 NumThis=390830 NumThis_boundary=1267909
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+Task=20 NumThis=1564608 NumThis_boundary=2824589
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+Task=29 NumThis=781725 NumThis_boundary=1663348
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+Task=18 NumThis=1563610 NumThis_boundary=2831636
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+Task=25 NumThis=780297 NumThis_boundary=1284742
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+Task=23 NumThis=1172972 NumThis_boundary=2814031
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+Task=27 NumThis=780436 NumThis_boundary=1658103
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+Task=21 NumThis=1561327 NumThis_boundary=2823663
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+Task=12 NumThis=1563970 NumThis_boundary=3214586
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+Task=17 NumThis=1562947 NumThis_boundary=2449645
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+Task=11 NumThis=1561805 NumThis_boundary=2825863
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+Task=9 NumThis=1561375 NumThis_boundary=2446646
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+ or BORDERSIZE too large.Running VT with options: qhull v QJ p Fv
+ or BORDERSIZE too large.Task=31 N.facets=12843395 N.vertices=11184421 N.pointfacets=105637514 Max_neighbors=164
+ or BORDERSIZE too large.Task=30 N.facets=12822362 N.vertices=11166012 N.pointfacets=105463893 Max_neighbors=150
+Dens Task=31 mass[     -98  1.2e-38] vol=[  0.0028  3.2e+02] den=[-3.5e+04  1.2e-38]
+Dens Task=30 mass[     -98  1.2e-38] vol=[  0.0022    3e+02] den=[-4.4e+04  1.2e-38]
+ or BORDERSIZE too large.Task=25 N.facets=15991036 N.vertices=13925793 N.pointfacets=131528594 Max_neighbors=193
+ or BORDERSIZE too large.Task=24 N.facets=16011795 N.vertices=13944119 N.pointfacets=131700969 Max_neighbors=151
+Dens Task=25 mass[     -98  1.2e-38] vol=[  0.0024  3.9e+02] den=[  -4e+04  1.2e-38]
+Dens Task=24 mass[     -98  1.2e-38] vol=[  0.0024  2.8e+02] den=[  -4e+04  1.2e-38]
+ or BORDERSIZE too large.Task=27 N.facets=18886215 N.vertices=16447453 N.pointfacets=155344150 Max_neighbors=173
+ or BORDERSIZE too large.Task=29 N.facets=18934931 N.vertices=16489635 N.pointfacets=155743372 Max_neighbors=184
+ or BORDERSIZE too large.Task=26 N.facets=18940974 N.vertices=16495531 N.pointfacets=155796853 Max_neighbors=190
+ or BORDERSIZE too large.Task=28 N.facets=18937593 N.vertices=16492200 N.pointfacets=155766769 Max_neighbors=194
+Dens Task=27 mass[     -98  1.2e-38] vol=[  0.0022  3.4e+02] den=[-4.4e+04  1.2e-38]
+Dens Task=29 mass[     -98  1.2e-38] vol=[  0.0013  3.5e+02] den=[-7.5e+04  1.2e-38]
+Dens Task=26 mass[     -98  1.2e-38] vol=[   0.002  3.8e+02] den=[-4.9e+04  1.2e-38]
+Dens Task=28 mass[     -98  1.2e-38] vol=[  0.0012  3.7e+02] den=[-8.1e+04  1.2e-38]
+ or BORDERSIZE too large.Task=5 N.facets=30999158 N.vertices=26997116 N.pointfacets=254981011 Max_neighbors=500
+Dens Task=5 mass[     -98  1.2e-38] vol=[  0.0022    1e+03] den=[-4.4e+04  1.2e-38]
+Task=0 N.facets=25084540 N.vertices=21846068 N.pointfacets=206330798 Max_neighbors=587
+Neighbors complete.
+Dens Task=0 mass[     -98  1.2e-38] vol=[  0.0018  1.2e+03] den=[-5.6e+04  1.2e-38]
+Density and Volume complete.
+[worker024][[8559,1],27][btl_tcp_frag.c:237:mca_btl_tcp_frag_recv] mca_btl_tcp_frag_recv: readv failed: Connection reset by peer (104)
+--------------------------------------------------------------------------
+WARNING: A process refused to die despite all the efforts!
+This process may still be running and/or consuming resources.
+
+Host: worker013
+PID:  28788
+
+--------------------------------------------------------------------------
+[worker013:28785] 1 more process has sent help message help-orte-odls-base.txt / orte-odls-base:could-not-kill
+[worker024][[8559,1],24][btl_tcp_frag.c:237:mca_btl_tcp_frag_recv] mca_btl_tcp_frag_recv: readv failed: Connection reset by peer (104)
+[worker024][[8559,1],25][btl_tcp_frag.c:237:mca_btl_tcp_frag_recv] mca_btl_tcp_frag_recv: readv failed: Connection reset by peer (104)
+[worker024][[8559,1],29][btl_tcp_frag.c:237:mca_btl_tcp_frag_recv] mca_btl_tcp_frag_recv: readv failed: Connection reset by peer (104)
+[worker024][[8559,1],30][btl_tcp_frag.c:237:mca_btl_tcp_frag_recv] mca_btl_tcp_frag_recv: readv failed: Connection reset by peer (104)
+[worker024][[8559,1],31][btl_tcp_frag.c:237:mca_btl_tcp_frag_recv] mca_btl_tcp_frag_recv: readv failed: Connection reset by peer (104)
+[worker013:28785] 1 more process has sent help message help-orte-odls-base.txt / orte-odls-base:could-not-kill
+[worker024][[8559,1],28][btl_tcp_frag.c:237:mca_btl_tcp_frag_recv] mca_btl_tcp_frag_recv: readv failed: Connection reset by peer (104)
+[worker024][[8559,1],26][btl_tcp_frag.c:237:mca_btl_tcp_frag_recv] mca_btl_tcp_frag_recv: readv failed: Connection reset by peer (104)
+[worker013:28785] 1 more process has sent help message help-orte-odls-base.txt / orte-odls-base:could-not-kill
+[worker013:28785] 1 more process has sent help message help-orte-odls-base.txt / orte-odls-base:could-not-kill
+--------------------------------------------------------------------------
+mpirun noticed that process rank 19 with PID 0 on node worker039.cluster.loc exited on signal 9 (Killed).
+--------------------------------------------------------------------------
+[worker013:28785] 1 more process has sent help message help-orte-odls-base.txt / orte-odls-base:could-not-kill
+=>> PBS: job killed: node 1 (worker006.cluster.loc) requested job terminate, 'EOF' (code 1099) - internal or network failure attempting to communicate with sister MOM's

@@ -1,0 +1,58 @@
+ generating random points
+ writing to file
+--------------------------------------------------------------------------
+No OpenFabrics connection schemes reported that they were able to be
+used on a specific port.  As such, the openib BTL (OpenFabrics
+support) will be disabled for this port.
+
+  Local host:           worker057
+  Local device:         mlx4_0
+  Local port:           1
+  CPCs attempted:       rdmacm, udcm
+--------------------------------------------------------------------------
+Filename=random_points.txt fileformat=0
+BOX enabled.
+PERIODIC enabled.
+MULTIMASS enabled.
+WRITEASCII enabled.
+indices = 2 1 1
+NumPart=100000000  Lbox= 100.000
+[worker057:26766] 1 more process has sent help message help-mpi-btl-openib-cpc-base.txt / no cpcs for port
+[worker057:26766] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+Task=  1 Npthistot=  6251414
+Task=  0 Npthistot= 18750765
+Read Complete: Nread=25002179 in 10000 blocks of 10000 bytes.
+Border size=0.647323 , density=100.000000
+AUTOBODER: increasing boundary for task 1, direction=0
+ boundary particles found=80715 --- minimum expected=194197
+AUTOBODER: increasing boundary for task 0, direction=0
+ boundary particles found=80575 --- minimum expected=194197
+New number of particles task 1: 200950 -- boundary expanded a factor of 2.5 
+New number of particles task 0: 200804 -- boundary expanded a factor of 2.5 
+AUTOBODER: increasing boundary for task 1, direction=1
+ boundary particles found=80321 --- minimum expected=194197
+New number of particles task 1: 200904 -- boundary expanded a factor of 2.5 
+AUTOBODER: increasing boundary for task 1, direction=2
+ boundary particles found=40730 --- minimum expected=97099
+New number of particles task 1: 100938 -- boundary expanded a factor of 2.5 
+AUTOBODER: increasing boundary for task 1, direction=3
+ boundary particles found=40606 --- minimum expected=97099
+AUTOBODER: increasing boundary for task 0, direction=3
+ boundary particles found=81062 --- minimum expected=97099
+New number of particles task 1: 100995 -- boundary expanded a factor of 2.5 
+New number of particles task 0: 97296 -- boundary expanded a factor of 1.2 
+AUTOBODER: increasing boundary for task 1, direction=4
+ boundary particles found=40468 --- minimum expected=97099
+New number of particles task 1: 100719 -- boundary expanded a factor of 2.5 
+AUTOBODER: increasing boundary for task 1, direction=5
+ boundary particles found=40486 --- minimum expected=97099
+AUTOBODER: increasing boundary for task 0, direction=5
+ boundary particles found=80701 --- minimum expected=97099
+New number of particles task 1: 100746 -- boundary expanded a factor of 2.5 
+New number of particles task 0: 116000 -- boundary expanded a factor of 1.4 
+Task=1 NumThis=6251414 NumThis_boundary=13184881
+Task=0 NumThis=18750765 NumThis_boundary=13276674
+WARNING! the number of boundary particles is larger than task particles.
+ This lead to poor performace, it may be produced by number of tasks too large,
+Running VT with options: qhull v QJ p Fv
+=>> PBS: job killed: walltime 172840 exceeded limit 172800

@@ -1,0 +1,20 @@
+program random_points
+  implicit none
+  integer::i,seed
+  real::x,y,z
+  real,dimension(n_points,3)::point
+
+  seed = 1984756
+
+  call random_seed(seed)
+
+  do i=1,n_points
+     call random_number(x)
+     call random_number(y)
+     call random_number(z)
+     point(i,:)=(/x,y,z/)
+  enddo
+
+  
+     
+endprogram
